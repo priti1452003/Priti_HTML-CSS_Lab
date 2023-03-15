@@ -1,0 +1,64 @@
+.barcontainer {
+    position: relative;
+    border: 3px solid black;
+    border-radius: 5px 5px 0 0;
+    width: 30%;
+    margin: 0 auto;
+    min-height: 25vw;
+    max-height: 50vw;
+    min-width: 40%;
+    max-width: 60%;
+    z-index: 1;
+  }
+
+  h2 {
+    position: absolute;
+    align-content: flex-end ;
+    justify-content: flex-end;
+    bottom: -40px;
+    margin: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(22, 22, 22);
+}
+
+  
+ .bar {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    border: 1px solid black;
+    border-radius: 6px 6px 0 0;
+    background: #339299;
+    width: 10%;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 0 black;
+    box-shadow: 4px 0 8px #888;
+  }
+  
+  .barlabel {
+    position: absolute;
+    border-top: 2px solid black;
+    background: #888;
+    bottom: 0;
+    width: 100%;
+    text-shadow: 1px 1px 0px black;
+    color: white;
+  }
+  
+  .bar:nth-child(1) {
+    left: 5%;
+  }
+  
+  .bar:nth-child(2) {
+    left: 20%;
+  }
+  
+  .bar:nth-child(3) {
+    left: 35%;
+  }
+}
+  
